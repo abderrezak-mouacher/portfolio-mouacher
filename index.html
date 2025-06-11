@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abderrezak Mouacher – Project Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    .project {
+      margin-bottom: 50px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Projects – Abderrezak Mouacher</h1>
+  <p><strong>Electronics and Embedded Systems Engineer</strong><br>
+  📧 mouacherabderrezak@gmail.com<br>
+  🌍 <a href="http://www.linkedin.com/in/abderrezak-mouacher-8b0529229" target="_blank">LinkedIn Profile</a></p>
+
+  <div class="project">
+    <h2>Soft Starter with RS485 Communication</h2>
+    <p><strong>Description:</strong> Designed and developed a soft starter system for AC induction motors. It uses thyristor-based control to reduce inrush current and is managed by an STM32 microcontroller. It includes a UI, protections, and meets EMC standards.</p>
+    <ul>
+      <li>Power stage: Opto-isolated triggering of SCRs with snubber protection</li>
+      <li>Control board: STM32, analog signal conditioning, relay outputs</li>
+      <li>User interface: LCD display with menu navigation</li>
+      <li>Protections: Overvoltage, overcurrent, thermal shutdown</li>
+    </ul>
+    <p><strong>Technologies Used:</strong> RS485, Motor Control, STM32, KiCad, Embedded C</p>
+  </div>
+
+  <div class="project">
+    <h2>I/O Device with Modbus TCP/IP and 2PPoE</h2>
+    <p><strong>Description:</strong> I/O device reads I²C sensor data and transmits it over Modbus TCP/IP. Supports ring topology, 4PPoE, and EMC-compliant PCB design.</p>
+    <ul>
+      <li>Ring topology & 4PPoE</li>
+      <li>4-layer PCB, EMC compliant</li>
+      <li>Compact & industrial-grade</li>
+    </ul>
+    <p><strong>Technologies Used:</strong> Modbus TCP/IP, Ethernet, 2PPoE, STM32</p>
+    <p><strong>Images:</strong></p>
+    <img src="IO Device with ModbusTOP.png" alt="IO Device with Modbus - Top View">
+    <img src="IO Device with Modbus BOTTOM.png" alt="IO Device with Modbus - Bottom View">
+  </div>
+
+  <div class="project">
+    <h2>RTD8 – 8-Channel RTD I/O Module</h2>
+    <p><strong>Description:</strong> Developed an STM32-based module for 8-channel RTD (PT100) temperature sensing. Features alarm, fan control, and RS485 connectivity.</p>
+    <ul>
+      <li>8 RTD channels with protection</li>
+      <li>Alarm, trip, fan control, fault detection</li>
+      <li>RS485 for industrial integration</li>
+    </ul>
+    <p><strong>Technologies Used:</strong> RS485, RTD, STM32</p>
+    <img src="IO Device with Modbus BOTTOM.png" alt="RTD8 Module PCB">
+  </div>
+
+  <div class="project">
+    <h2>Multi-Display HMI Device with Touchscreen</h2>
+    <p><strong>Description:</strong> Versatile HMI card supporting LCD, MIPI DPI, MIPI DSI, with capacitive touchscreen and adaptable architecture.</p>
+    <ul>
+      <li>Supports LCD, MIPI DPI/DSI</li>
+      <li>Touchscreen interface</li>
+      <li>Designed for industrial usability</li>
+    </ul>
+    <p><strong>Technologies Used:</strong> STM32, HMI, Touchscreen, KiCad</p>
+    <img src="hmii.png" alt="HMI Device PCB">
+    <p>📹 <a href="https://youtu.be/y0rCJS2UjuY?si=keCdk1oS1gIdCL0u">Watch Demo</a></p>
+  </div>
+
+  <div class="project">
+    <h2>STM32H7B0VBT6 Development Board Design</h2>
+    <p><strong>Description:</strong> Custom board for STM32H7B0VBT6, supporting high-speed I/O, LTDC for displays, QSPI PSRAM, and wireless communication.</p>
+    <ul>
+      <li>64 GPIOs, LTDC, touchscreen</li>
+      <li>64MB PSRAM via QSPI</li>
+      <li>Wi-Fi, Bluetooth, USB-C</li>
+      <li>Boost converter up to 35V</li>
+    </ul>
+    <p><strong>Technologies Used:</strong> STM32H7B0VBT6, QSPI, LTDC, Wireless</p>
+    <img src="hmii.png" alt="Development Board PCB">
+  </div>
+
+  <div class="project">
+    <h2>Drone Prototype Project</h2>
+    <p><strong>Context:</strong> University Project – June 2021</p>
+    <p><strong>Description:</strong> Designed and built a functional drone prototype as a student project. Focused on real-time control, flight stability, and basic obstacle avoidance using embedded systems principles.</p>
+    <ul>
+      <li>Designed frame and electronics layout</li>
+      <li>Programmed flight controller and stabilization algorithms</li>
+      <li>Integrated wireless control and sensors</li>
+    </ul>
+    <p><strong>Technologies Used:</strong> Microcontrollers, IMU Sensors, Wireless Communication, Embedded C</p>
+  </div>
+</body>
+</html>
